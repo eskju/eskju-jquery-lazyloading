@@ -1,0 +1,77 @@
+
+	#example1,
+	#example2,
+	#example3,
+	#example4
+	{
+		min-height: 900px;
+		margin-bottom: 100px;
+		background-color: #f5f5f5;
+		padding: 50px;
+		border-radius: 5px;
+	}
+	
+	#example1 .esKju-lazyloading.esKju-lazyloading-loaded,
+	#example2 .esKju-lazyloading.esKju-lazyloading-loaded,
+	#example3 .esKju-lazyloading.esKju-lazyloading-loaded,
+	#example4 .esKju-lazyloading.esKju-lazyloading-loaded
+	{
+		opacity: 1;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		-webkit-filter: blur( 0px );
+		-moz-filter: blur( 0px );
+		-o-filter: blur( 0px );
+		-ms-filter: blur( 0px );
+	}
+
+	#example1 .esKju-lazyloading
+	{
+		opacity: 0;
+		-webkit-transition: all 500ms ease-in-out;
+		-moz-transition: all 500ms ease-in-out;
+		-o-transition: all 500ms ease-in-out;
+		-ms-transition: all 500ms ease-in-out;
+		overflow: hidden;
+		-webkit-transform: scale( 1.25 ) translateY( 100px ) skewX( 15deg );
+		-moz-transform: scale( 1.25 ) translateY( 100px ) skewX( 15deg );
+		-o-transform: scale( 1.25 ) translateY( 100px ) skewX( 15deg );
+		-ms-transform: scale( 1.25 ) translateY( 100px ) skewX( 15deg );
+	}
+	
+	#example2 .esKju-lazyloading
+	{
+		opacity: 0;
+		-webkit-transition: all 1500ms ease-in-out;
+		-moz-transition: all 1500ms ease-in-out;
+		-o-transition: all 1500ms ease-in-out;
+		-ms-transition: all 1500ms ease-in-out;
+		overflow: hidden;
+		-webkit-filter: blur( 10px );
+		-moz-filter: blur( 10px );
+		-o-filter: blur( 10px );
+		-ms-filter: blur( 10px );
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+	
+	#example3 .esKju-lazyloading
+	{
+		opacity: 0;
+		-webkit-transition: all 2000ms ease-in-out;
+		-moz-transition: all 2000ms ease-in-out;
+		-o-transition: all 2000ms ease-in-out;
+		-ms-transition: all 2000ms ease-in-out;
+		overflow: hidden;
+		-webkit-transform: rotateX( 70deg) translateX( 100px );
+		-moz-transform: rotateX( 70deg) translateX( 100px );
+		-o-transform: rotateX( 70deg) translateX( 100px );
+		-ms-transform: rotateX( 70deg) translateX( 100px );
+	}
+	
+	#example4 .esKju-lazyloading
+	{
+		
+	}
+	
