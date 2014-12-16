@@ -4,9 +4,9 @@
  * Copyright (c) 2014 Christian Witte
  * licensed under MIT license.
  *
- * https://github.com/...
+ * https://github.com/eskju/eskju-jquery-lazyloading
  *
- * Version: 0.9a
+ * Version: 1.0
  *
  * Licensed under MIT license.
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software
