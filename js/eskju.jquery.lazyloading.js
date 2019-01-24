@@ -6,7 +6,7 @@
  *
  * https://github.com/eskju/eskju-jquery-lazyloading
  *
- * Version: 1.0
+ * Version: 1.0.1
  *
  * Licensed under MIT license.
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software
@@ -61,6 +61,8 @@
 		{
 			var $this = this;
 	
+			$( this.container ).trigger( "nextPageRequested" );
+	
 			$.get( this.url,
 			{
 				ajax : 1,
@@ -94,6 +96,8 @@
 						} );
 					}
 				}
+				
+				$( $this.container ).trigger( "nextPageLoaded" );
 			} );
 		},
 	
